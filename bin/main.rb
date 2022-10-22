@@ -7,11 +7,11 @@ puts '=> Creating a new linked list'
 list = LinkedList.new
 puts '=> displaying the list as a string'
 p list.to_s
-puts"Appending first node with value 'First'"
+puts "Appending first node with value 'First'"
 list.append('First')
-puts"Appending second node with value 'Second'"
+puts "Appending second node with value 'Second'"
 list.append('Second')
-puts"Prepending third node with value 'Last'"
+puts "Prepending third node with value 'Last'"
 list.prepend('Last')
 puts '=> displaying the list as a string'
 p list.to_s
